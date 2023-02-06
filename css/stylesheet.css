@@ -14,15 +14,24 @@
         background-color: #f5f5db;
     }
 
-    .Courses{
-        background-color: pink
-    }
-
-    .School{
-        background-color: greenyellow
-    }
-
     body{
         background-color: #f5f5db;
     }
     
+    .School-information{
+    color: rgb(127, 133, 23);
+    }
+
+    h1{
+        font-family: montserrat, sans-serif;
+        font-weight: 400;
+    }
+
+    nav a{
+        margin-right: 15px;
+    }
+
+    nav{
+        background-color: azure;
+        text-align: center;
+    }

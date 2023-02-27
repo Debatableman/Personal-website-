@@ -1,13 +1,13 @@
     p{
-    color: #18cb3c;
+        color: #18cb3c;
     }
     
     h1 {
-    color: rgb(173, 38, 197)
+        color: rgb(173, 38, 197)
     }
 
     h2{
-    color:rgb(173, 38, 197)
+        color:rgb(173, 38, 197)
     }
     
     main{
@@ -16,15 +16,27 @@
 
     body{
         background-color: #f5f5db;
+
     }
     
     .School-information{
-    color: rgb(127, 133, 23);
+        color: rgb(127, 133, 23);
+        background-color: azure;
+        padding-bottom: 50px
+    }
+
+    header{
+        background-color: azure;
     }
 
     h1{
         font-family: montserrat, sans-serif;
         font-weight: 400;
+        text-align: center;
+    }
+
+    h2{
+        text-align: left;
     }
 
     nav a{
@@ -34,4 +46,18 @@
     nav{
         background-color: azure;
         text-align: center;
+        padding-top: 0fr;
+    }
+
+    .center{
+        vertical-align: middle;
+        display: grid;
+        flex-direction: column;
+        grid-column: 4 / 12;
+    }
+
+    article{
+        display: grid;
+        grid-template-columns: 900px;
+        flex-direction: column;
     }

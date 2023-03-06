@@ -1,5 +1,5 @@
     p{
-        color: #18cb3c;
+        color: black;
     }
     
     h1 {
@@ -22,7 +22,20 @@
     .School-information{
         color: rgb(127, 133, 23);
         background-color: azure;
-        padding-bottom: 50px
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .TITLE0{
+        text-align: center;
+    }
+
+    .TITLE1{
+        text-align: center;
+    }
+
+    .selections{
+        text-align: center;
     }
 
     header{
@@ -43,9 +56,17 @@
         margin-right: 15px;
     }
 
+    li a:link{
+        color:blue 
+    }
+
+    li a:hover{
+        color:pink
+    }
+
     nav{
         background-color: azure;
-        text-align: center;
+        text-align: left;
         padding-top: 0fr;
     }
 
@@ -60,4 +81,19 @@
         display: grid;
         grid-template-columns: 900px;
         flex-direction: column;
+    }
+
+    footer{
+        text-align: center;
+        background-color: azure;
+    }
+
+    .container{
+        border-bottom: 2px grey solid;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .right{
+        text-align: center;
     }
